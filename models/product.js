@@ -1,23 +1,26 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-const productSchema = new mongoose.Schema({
+const productSchema = new mongoose.Schema(
+  {
     name: {
-        type: String,
+      type: String,
     },
     description: {
-        type: String,
+      type: String,
     },
     price: {
-        type: Number,
+      type: Number,
     },
     variants: [
-        {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Variant"
-        }
-    ]
-}, { timestamps: true })
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Variant",
+      },
+    ],
+  },
+  { timestamps: true }
+);
 
-const Product = mongoose.model("Product", productSchema)
+const Product = mongoose.model("Product", productSchema);
 
-export default Product
+export default Product;

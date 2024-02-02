@@ -1,20 +1,23 @@
 import mongoose from "mongoose";
 
-const variantSchema = new mongoose.Schema({
+const variantSchema = new mongoose.Schema(
+  {
     name: {
-        type: String,
+      type: String,
     },
     sku: {
-        type: String,
+      type: String,
     },
     additionalCost: {
-        type: Number,
+      type: Number,
     },
     stockCount: {
-        type: Number,
-    }
-}, { timestamps: true })
+      type: Number,
+    },
+  },
+  { timestamps: true }
+);
 
 const Variant = mongoose.model("Variant", variantSchema);
 
-export default Variant
+export default Variant;
