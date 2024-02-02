@@ -23,16 +23,16 @@ Please download and email your solution from a private Github repository you hav
 ### Prerequisites
 
 - Node.js and npm installed
-- MongoDB installed and running
+- MongoDB set up and running [(setup instructions)](#mongodb)
 - `npm install`
 - `npm install nodemon --save-dev`
 
-1. **Clone the repository :**
+#### 1. **Clone the repository :**
 
    ```bash
    git clone https://github.com/Solirius-QE/QE-BE-Technical-Task.git
    ```
-2. **Create a MongoDB :**
+#### 2. <a id="mongodb"></a>**Create a MongoDB :**
 
 You have two options, you can create a MongoDB locally or we also recommend creating a free cluster in MongoDB Atlas cloud as much of the heavy work creating a MongoDB is done for you (it is free, please do not pay for anything to complete this task).
 
@@ -41,14 +41,14 @@ https://www.mongodb.com/cloud/atlas/register
 Video on how to set up a free db/cluster with MongoDB Atlas Cloud (you only need to watch the first 2.50 mins). https://youtu.be/jXgJyuBeb_o?si=-0hXD9m_fOabJ6g0
 
 
-3. **Create a .env file in the root directory with the following content :**
+#### 3. **Create a .env file in the root directory with the following content :**
 
    ```
    MONGO_URI=<Your MongoDB connection string>
    PORT=3000
    ```
 
-4. Start server :
+#### 4. Start server :
    `npm run start`
 
 You should now be up and running.
