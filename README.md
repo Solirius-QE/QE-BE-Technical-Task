@@ -18,7 +18,7 @@ Although there's no strict time limit for completing this task before the specif
 
 Please download and email your solution from a private Github repository you have created and send the Zip back to us. Any issues please do get in touch with the recruiter you have been speaking with.
 
-## Getting Started with API
+## Getting Started with the API
 
 ### Prerequisites
 
