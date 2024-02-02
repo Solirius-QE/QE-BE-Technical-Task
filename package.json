@@ -1,0 +1,24 @@
+{
+  "name": "qe-be-technical-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test-getAllProduct": "mocha ./test/TestingAPI/getAllProduct.test.js",
+    "test-createProduct": "mocha ./test/TestingAPI/createProduct.test.js",
+    "test-model": "mocha ./test/TestingModel",
+    "test-search": "mocha ./test/TestingSearch",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
