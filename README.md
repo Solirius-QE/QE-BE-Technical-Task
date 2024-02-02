@@ -20,7 +20,40 @@ Please download and email your solution from a private Github repository you hav
 
 ## Getting Started with the API
 
-### Prerequisites
+### API Specification
+
+#### 1. Retrieve all Products
+- Endpoint: GET `api/allProducts`
+- Description: Retrieve a list of all products.
+- Controller: getAllProductController
+
+#### 2. Create/Update/Delete Product and Variants
+- Endpoint: POST `api/createProduct`
+- Description: Create a new product or update an existing one. This API also handles creating, updating, and deleting product variants.
+- Controller: createProductController
+
+#### 3. Delete Product by ID
+- Endpoint: DELETE `api/product/:productId`
+- Description: Delete a product by its unique identifier.
+- Parameters:
+    - productId (Path Parameter): Unique identifier for the product.
+- Controller: deleteProductByIdController
+
+#### 4. Update Product by ID
+- Endpoint: PATCH `api/updateProduct/:productId`
+- Description: Update a product using its unique identifier.
+- Parameters:
+    - productId (Path Parameter): Unique identifier for the product.
+Controller: updateProductById
+
+#### 5. Search Products
+- Endpoint: GET `api/product/search`
+- Description: Search for products based on specified criteria.
+- Controller: searchItems
+
+### Set up
+
+#### Prerequisites
 
 - Node.js and npm installed
 - MongoDB set up and running [(setup instructions)](#mongodb)
