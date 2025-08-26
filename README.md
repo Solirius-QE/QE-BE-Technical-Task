@@ -12,7 +12,7 @@ We have created a simple Rest API built with Node.js. It provides endpoints for 
 
 ## 🕗 Time Allocation
 
-Although there's no strict time limit for completing this task before the specified deadline given, we advise against spending more than a few hours on it. We don't expect an extensive number of tests, but a well-rounded selection is appreciated. If you have the time and inclination, feel free to include any additional thoughts on your solution and on any further considerations you would take in to account for testing an application like the one we have used for this task.
+There's no strict time limit for completing this task before the specified deadline given, we don't expect an extensive number of tests, but a well-rounded selection is appreciated. If you have the time and inclination, feel free to include any additional thoughts on your solution and on any further considerations you would take in to account for testing an application like the one we have used for this task.
 
 ## 📨 Presenting/Submitting Your Solution
 
